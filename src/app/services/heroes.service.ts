@@ -71,7 +71,7 @@ export class HeroesService {
         let heroesArr: Heroe[] = [];
         texto = texto.toLowerCase();
 
-        for (let i = 0; i < this.heroes.length; i ++ ) {
+        for (let i = 0; i < this.heroes.length; i++) {
             let heroe = this.heroes[i];
             let nombre = heroe.nombre.toLowerCase();
 

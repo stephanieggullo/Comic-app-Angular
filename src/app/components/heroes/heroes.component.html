@@ -2,5 +2,6 @@
 <hr>
 
 <div class="card-columns">
-    <app-heroe-tarjeta (heroeSeleccionado)='HeroeDetail($event)' [heroe]='aHeroe' [index]='i'  *ngFor="let aHeroe of heroes; let i= index"></app-heroe-tarjeta>
-  </div>
+  <app-heroe-tarjeta (heroeSeleccionado)='HeroeDetail($event)' [heroe]='aHeroe' [index]='i'
+    *ngFor="let aHeroe of heroes; let i= index"></app-heroe-tarjeta>
+</div>
