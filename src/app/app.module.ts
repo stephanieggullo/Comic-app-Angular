@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { HeroesService } from './services/heroes.service';
 import { AppRoutingModule } from './app-routing.module';
@@ -25,7 +26,8 @@ import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     HeroesService
